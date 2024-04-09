@@ -54,7 +54,11 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  /* color: currentcolor; */
+  color: #009639;
+  font-weight: 600;
+  font-size: 20px;
+
 }
 
 /* hamburger */
