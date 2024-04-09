@@ -170,7 +170,7 @@ header nav[aria-expanded="true"] .nav-sections {
 header nav .nav-sections ul  {
   list-style: none;
   padding-left: 0;
-  flex-direction: row-reverse;
+  justify-content: flex-end;
   font-size: var(--body-font-size-s);
   font-weight: 500;
 }
