@@ -148,8 +148,8 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
-  height: auto;
+  width: auto;
+  height: 40px;
 }
 
 /* sections */
@@ -170,6 +170,7 @@ header nav[aria-expanded="true"] .nav-sections {
 header nav .nav-sections ul  {
   list-style: none;
   padding-left: 0;
+  flex-direction: row-reverse;
   font-size: var(--body-font-size-s);
   font-weight: 500;
 }
